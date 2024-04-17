@@ -1,0 +1,11 @@
+body {
+    background-color: #222;
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+.container {
+    border: 1px solid #fbf7ef;
+    margin: 48px;
+    height: 93vh;
+}

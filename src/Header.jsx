@@ -20,7 +20,7 @@ function Header({ onPageChange }) {
     <>
       <div className="header">
         <div className="welcome">
-          <p className="welcome-text">Welcome.</p>
+          <p className="welcome-text">welcome.</p>
         </div>
         <div className="navbar">
           <ul className="nav-items">
@@ -31,7 +31,7 @@ function Header({ onPageChange }) {
               id="nav-item-home"
               onClick={navigateHome}
             >
-              <p>Home</p>
+              <p>home</p>
             </li>
 
             <li
@@ -41,7 +41,7 @@ function Header({ onPageChange }) {
               id="nav-item-projects"
               onClick={navigateProjects}
             >
-              <p>Projects</p>
+              <p>projects</p>
             </li>
           </ul>
         </div>

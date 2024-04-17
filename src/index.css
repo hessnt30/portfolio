@@ -2,10 +2,12 @@ body {
     background-color: #222;
     overflow: hidden;
     min-width: 1000px;
+    margin: 0;
+    padding: 32px;
+    height: 100vh;
 }
 
 .container {
     border: 1px solid #fbf7ef;
-    margin: 48px;
-    height: 93vh;
+    height: 100%;
 }

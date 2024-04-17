@@ -1,0 +1,8 @@
+.project-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-list-title {
+    margin-bottom: 8px;
+}

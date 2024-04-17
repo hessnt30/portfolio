@@ -1,7 +1,7 @@
 import Header from "./Header.jsx";
 import Info from "./Info.jsx";
 import { useState } from "react";
-import Projects from "./Projects.jsx";
+import ProjectsPage from "./ProjectsPage.jsx";
 
 function App() {
   const [activePage, setActivePage] = useState("home"); // Initialize activePage state
@@ -15,7 +15,7 @@ function App() {
     <>
       <Header onPageChange={handlePageChange} />
       {activePage == "home" && <Info />}
-      {activePage == "projects" && <Projects />}
+      {activePage == "projects" && <ProjectsPage />}
     </>
   );
 }

@@ -1,11 +1,25 @@
 import ProjectList from "./ProjectList.jsx";
 import "./projectspage.css";
 
-function Projects() {
+function Projects({ darkMode }) {
   return (
     <>
-      <div className="info-container">
-        <div className="project-lists-container">
+      <div
+        className="projects-page-container"
+        id={
+          darkMode
+            ? "projects-page-container-dark"
+            : "projects-page-container-light"
+        }
+      >
+        <div
+          className="project-lists-container"
+          id={
+            darkMode
+              ? "project-lists-container-dark"
+              : "project-lists-container-light"
+          }
+        >
           <ProjectList
             title={"personal"}
             projectNames={[
@@ -25,8 +39,14 @@ function Projects() {
             projectDates={["april 2024", "march 2024", "february 2024"]}
           />
         </div>
-        <div className="square-border" id="square1"></div>
-        <div className="square-border" id="square2"></div>
+        <div
+          className="project-square-border"
+          id={darkMode ? "project-square1-dark" : "project-square1-light"}
+        ></div>
+        <div
+          className="project-square-border"
+          id={darkMode ? "project-square2-dark" : "project-square2-light"}
+        ></div>
       </div>
     </>
   );

@@ -1,6 +1,11 @@
 .project-container {
     margin-bottom: 24px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-container:hover {
+    transform: scale(1.2);
 }
 
 .project-title {

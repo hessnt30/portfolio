@@ -1,10 +1,16 @@
 import "./info.css";
 
-function Info() {
+function Info({ darkMode }) {
   return (
     <>
-      <div className="info-container">
-        <div className="text-container">
+      <div
+        className="info-container"
+        id={darkMode ? "info-container-dark" : "info-container-light"}
+      >
+        <div
+          className="text-container"
+          id={darkMode ? "text-container-dark" : "text-container-light"}
+        >
           <div className="header-text-container">
             <p className="my-name">Nicholas Hess</p>
             <p className="my-title">Computer Science Student</p>
@@ -22,8 +28,14 @@ function Info() {
             </p>
           </div>
         </div>
-        <div className="square-border" id="square1"></div>
-        <div className="square-border" id="square2"></div>
+        <div
+          className="square-border"
+          id={darkMode ? "square1-dark" : "square1-light"}
+        ></div>
+        <div
+          className="square-border"
+          id={darkMode ? "square2-dark" : "square2-light"}
+        ></div>
       </div>
     </>
   );

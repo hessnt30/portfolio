@@ -3,8 +3,8 @@ body {
     overflow: hidden;
     min-width: 1000px;
     margin: 0;
-    padding: 32px;
-    height: 100vh;
+    padding: 32px 32px 0 32px;
+    height: 94vh;
 }
 
 .container {

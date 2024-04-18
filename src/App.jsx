@@ -13,7 +13,7 @@ function App() {
     // Update dark mode class on container element
     const container = document.querySelector(".container");
     if (container) {
-      container.classList.toggle("dark-mode", toggleDarkMode === "light");
+      container.classList.toggle("container-dark-mode", toggleDarkMode === "light");
     }
   }, [toggleDarkMode]);
 

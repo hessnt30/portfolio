@@ -29,6 +29,17 @@
   background-color: #222;
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .info-container {
   margin-left: auto;
   margin-right: auto;
@@ -40,6 +51,7 @@
   z-index: 0;
   position: relative;
   top: 0; /* Initial position */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 #info-container-dark {

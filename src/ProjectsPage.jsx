@@ -23,11 +23,11 @@ function Projects({ darkMode }) {
           <ProjectList
             title={"personal"}
             projectNames={[
+              "Leetcodle",
               "Movie Finder",
               "Minecraft Server Status",
-              "Project 3",
             ]}
-            projectDates={["march 2024", "february 2024", "january 2024"]}
+            projectDates={["april 2024", "february 2024", "february 2024"]}
           />
           <ProjectList
             title={"academic"}
